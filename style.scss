@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: solid;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200vh;
+}
+
+.logo-text-container {
+    display: flex;
+    align-items: center; 
+}
+
+h1 {
+    color: #E4EEF1;
+}
+
+.firstbutton, .secondbutton, .outrobotao {
+    border: none;
+    background: none;
+    color: #E4EEF1;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.firstbutton {
+    width: 10.8vh;
+    height: 2.7vw;
+}
+
+.secondbutton {
+    width: 31.1vh;
+    height: 2.7vw;
+}
+
+.outrobotao {
+    width: 9.9vh;
+    height: 2.7vw;
+}
+
+main {
+    width: 200vw; 
+    padding:0;
+  
+}
+
+.firstcontainer  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #FFD9EC;
+    width: 200vh;
+    height: 29vw;
+}
+
+.h2 {
+    margin-right: 20px;
+    width: 75.8vh;
+    height: 19.11vw;
+    font-size: 25px;
+}
+
+.img {
+    width: 47.1vh;
+    height: 25.6vw;
+}
+.secondcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #FF69B4;
+    width: 200vh;
+    height: 29vw;
+}
+
+.h2 {
+    color:white;
+    margin-right: 20px;
+    width: 75.8vh;
+    height: 19.11vw;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.img {
+    width: 47.1vh;
+    height: 25.6vw;
+}
+
+
+.terceirocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #FFD9EC;
+    width: 200vh;
+    height: 29vh;
+}
+
+.terceirocontainer img {
+    margin: 0 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #FF69B4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 200vh;
+    height: 29vh;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.left-icons {
+    display: flex;
+    align-items: center;
+}
+
+.left-icons img {
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-list li {
+    margin: 5px 0;
+    color: white;
+}
+
+.right-logo {
+    margin-left: auto;
+}
+
+.right-logo img {
+    width: 100px;
+    height: auto;
+}
